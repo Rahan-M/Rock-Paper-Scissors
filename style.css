@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.topbar{
+    height:80px;
+    background-color:#042A2B;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.choices{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;align-items: center;
+}
+.choice{
+    display: flex;
+    justify-content: space-evenly;align-items: center;
+    border-radius: 50%;
+    height:215px;
+    width:215px;
+}
+.choice img{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice:hover{
+    background-color:#042A2B;
+}
+.scoreboard{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-evenly;align-items: center;
+    margin-top:4rem;
+    margin-bottom:4rem;
+}
+.yousc,.compsc{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+.msg{
+    display:inline-block;
+    line-height: 4rem;
+    height: 60px;
+    width:450px;
+    background-color: #042A2B;
+    border-radius:15px;
+    color:white;
+}
